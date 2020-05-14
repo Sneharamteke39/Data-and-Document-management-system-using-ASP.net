@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MS.master.cs" Inherits="Data_And_Documents_Management_System.MS" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+  
+</head>
+<body style="background-image:url(https://wallpapercave.com/wp/YHlk56g.jpg);">
+    <form id="form1" runat="server">
+        <div>
+            <center>
+                <h1><font color="darkblue"><em>WELCOME!....</em></font> </h1>
+                <hr />
+            <div style="background-color:ghostwhite">
+                <asp:Label ID="LabUserLogin" runat="server" Text="DESKTOP" ForeColor="Black"></asp:Label>&nbsp;&nbsp;
+
+                <asp:LinkButton ID="LinkButton1" runat="server" OnClick="LinkButton1_Click"><b>ADD NEW FACULTY DATA</b></asp:LinkButton>&nbsp;&nbsp;
+                <asp:LinkButton ID="LinkButton2" runat="server" OnClick="LinkButton2_Click"><b>ADD NEW STUDENT DATA</b></asp:LinkButton>&nbsp;&nbsp;
+              
+                <asp:LinkButton ID="LinkButton4" runat="server" OnClick="LinkButton4_Click"><b>DOCUMENTS ENTERY</b></asp:LinkButton>&nbsp;&nbsp;
+                   <asp:LinkButton ID="LinkButton3" runat="server" OnClick="LinkButton3_Click"><b>CHECK DATA</b></asp:LinkButton>&nbsp;&nbsp;
+                <asp:LinkButton ID="LinkButton5" runat="server" OnClick="LinkButton5_Click"><b>CHECK DOCUMENTS</b></asp:LinkButton>&nbsp;&nbsp;
+                
+               
+                 
+                 <asp:LinkButton ID="LinkButton6" runat="server" OnClick="LinkButton6_Click"><b>LOGOUT</b></asp:LinkButton>&nbsp;&nbsp;
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                </center>
+        </div>
+    </form>
+</body>
+</html>
+
